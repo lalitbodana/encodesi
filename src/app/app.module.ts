@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './core/components/home/home.component';
 import { AboutComponent } from './core/components/about/about.component';
 import { HeaderComponent } from './core/components/header/header.component';
+import { NotificationComponent } from './core/components/notification/notification.component';
+import { ContentComponent } from './core/components/content/content.component';
+import { CenterContentComponent } from './core/components/center-content/center-content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    HeaderComponent
+    HeaderComponent,
+    NotificationComponent,
+    ContentComponent,
+    CenterContentComponent
   ],
   imports: [
     BrowserModule,
