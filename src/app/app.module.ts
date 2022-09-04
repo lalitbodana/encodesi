@@ -9,6 +9,8 @@ import { HeaderComponent } from './core/components/header/header.component';
 import { NotificationComponent } from './core/components/notification/notification.component';
 import { ContentComponent } from './core/components/content/content.component';
 import { CenterContentComponent } from './core/components/center-content/center-content.component';
+import { LeftContentComponent } from './core/components/left-content/left-content.component';
+import { RightContentComponent } from './core/components/right-content/right-content.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CenterContentComponent } from './core/components/center-content/center-
     HeaderComponent,
     NotificationComponent,
     ContentComponent,
-    CenterContentComponent
+    CenterContentComponent,
+    LeftContentComponent,
+    RightContentComponent
   ],
   imports: [
     BrowserModule,
